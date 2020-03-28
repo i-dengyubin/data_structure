@@ -30,7 +30,7 @@ void CreateListR(LinkList* &L, ElemType a[], int n) {
 		r->next = s;
 		r = s;
 	}
-
+	r->next = NULL;
 }
 
 void DisplayList(LinkList* L) {

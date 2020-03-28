@@ -1,9 +1,9 @@
 #include <iostream>
-#include "LinkList.h"
+#include "DLinkList.h"
 using namespace std;
 
 int main(void) {
-	LinkList* L;
+	DLinkList* L;
 	ElemType a[] = {4,5,2,9,3};
 	CreateListR(L, a, 5);
 	DisplayList(L);
